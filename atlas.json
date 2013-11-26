@@ -11,16 +11,23 @@
   "formats": {
     "pdf": {
       "version": "web",
-      "toc": true
+      "toc": true,
+      "index": false
     },
     "epub": {
+      "index": false,
+      "toc": false,
+      "epubcheck": false
     },
     "mobi": {
+      "index": false,
+      "toc": false
     },
     "html": {
-      "toc": true
+      "toc": true,
+      "index": false
     }
   },
-  "theme": "oreillymedia/atlas_tech1c_theme",
-  "title": "Atlas_Hello_World"
+  "theme": "oreillymedia/atlas_trade_theme",
+  "title": "The Adventures of Electronic Publishing in the 21st Century"
 }
